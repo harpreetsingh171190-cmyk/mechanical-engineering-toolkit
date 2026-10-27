@@ -1,0 +1,7 @@
+# Extra packages used by the notebooks in notebooks/
+-r requirements.txt
+jupyterlab
+rich
+pyromat                # rankine_cycle, rankine_reheat_cycle, refrigeration_cycle
+japanize-matplotlib    # tensile-test (Japanese axis labels)
+setuptools             # provides the distutils shim japanize-matplotlib needs on Python 3.12+
